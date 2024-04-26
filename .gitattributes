@@ -1,5 +1,6 @@
 *.safetensors filter=lfs diff=lfs merge=lfs -text
 model.safetensors filter=lfs diff=lfs merge=lfs -text
+stored_model/model/distilgpt2_fine_tuned_coder/0_GPTSingleHead/model.safetensors filter=lfs diff=lfs merge=lfs -text
 *.gitignore filter=lfs diff=lfs merge=lfs -text
 /LICENSE filter=lfs diff=lfs merge=lfs -text
 *.md filter=lfs diff=lfs merge=lfs -text
