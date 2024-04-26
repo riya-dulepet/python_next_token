@@ -30,5 +30,7 @@ Initially I tried training from scratch with GPT2 tokenizer however was running 
 
 I ran on 50% of the data because of compute and time constraints. I also only ran 1 epoch and had time permit I would have run 2-3 more depending on loss. We can see that the perplexity decreases consistently on the validation which is a good sign. Both the val and training loss also is decreasing and the model could benefit from a bit more training as the loss has not completely stabilized but is close to it. 
 
+I was having issues uploading my model to huggingface (have never done it before) so instead I used git lfs to store the checkpoint here on the repository. You can view the tensorboard logs also by running: tensorboard --logdir=runs/Apr26_02-18-43_nvidia-gpu-optimized-vmi-1-vm/ --host 0.0.0.0 --port 8888
+
 ## Training from Scratch Attempt:
 https://drive.google.com/drive/folders/1RQK14zfXFEzd9p14rYjFDNmyhBRdxiOx?usp=sharing 
